@@ -11,5 +11,5 @@ class Solution:
         l = np.exp(z-x)
         summ = np.sum(l)
         l /= summ
-        return np.round(l, 4)
         
+        return np.round(l, 4)
