@@ -8,8 +8,8 @@ class Solution:
         # Hint: add a small epsilon (1e-7) to y_pred to avoid log(0)
         # return round(your_answer, 4)
         eps = 1e-7
-        loss = -np.sum(y_true*(np.log(y_pred) +eps) +
-        (1-y_true)*(np.log(1-y_pred) +eps))/len(y_true)
+        loss = -np.sum(y_true*np.log(y_pred +eps) +
+        (1-y_true)*np.log(1-y_pred +eps))/len(y_true)
 
         return np.round(loss, 4)
 
