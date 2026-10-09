@@ -10,7 +10,7 @@ class Solution:
         # biases: list of 1D bias vectors
         # Apply ReLU after each hidden layer, no activation on output layer
         for i in range(len(weights)):
-            x = np.dot(x,weights[i]) + biases[i]
+            x = x @ weights[i] + biases[i]
 
             if i < len(weights)-1:
                 x = np.maximum(0, x)
