@@ -15,6 +15,10 @@ L'objectif est de comprendre et reconstruire les composants internes
 des Large Language Models (LLM), depuis les mathématiques fondamentales 
 jusqu'à l'architecture Transformer utilisée par les modèles modernes.
 
+**Statut : projet en cours de développement (Work in Progress)**
+
+Ce projet est développé progressivement, les différentes fonctionnalités sont
+implémentées au fur et à mesure de ma progression.
 
 ## Compétences couvertes
 
